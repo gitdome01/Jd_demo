@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chy.example.com.day_ofnews.Main2Activity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radio"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:checked="true"
+            android:button="@null"
+            android:drawableTop="@drawable/home"
+            android:src="@drawable/splash"
+            android:id="@+id/shouye"
+            android:textColor="@drawable/textcolor"
+            android:text="首页"
+
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/shipin"
+            android:button="@null"
+            android:drawableTop="@drawable/vid"
+
+            android:textColor="@drawable/textcolor"
+            android:text="西瓜视频"
+
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/toutiao"
+            android:drawableTop="@drawable/micr"
+            android:textColor="@drawable/textcolor"
+            android:text="头条"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/wode"
+            android:drawableTop="@drawable/mer"
+            android:textColor="@drawable/textcolor"
+            android:text="我的"
+
+            />
+
+
+    </RadioGroup>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"
+        android:layout_above="@id/radio"
+        />
+
+</RelativeLayout>

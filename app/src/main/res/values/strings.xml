@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">day_ofNews</string>
+    <string-array name="tm">
+        <item>我的关注</item>
+        <item>消息通知</item>
+        <item>头条商城</item>
+        <item>京东特供</item>
+        <item>用户反馈</item>
+        <item>系统设置</item>
+
+
+    </string-array>
+</resources>
